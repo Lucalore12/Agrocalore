@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroCalore</title>
+    <link rel="icon" type="png"  href="MEDIA/icono.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/carrusel.css">
+    <link rel="stylesheet" href="CSS/navegacion.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/final.css">
+    <link rel="stylesheet" href="CSS/dedicatoria.css">
+
+    
+</head>
+<body>
+    
+    <header class="barra-principio">
+        <img src="MEDIA/icono.png" class="icono">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <nav class="navega">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="contactos.html">Contactos</a>
+        </nav>
+        <label for="menu-toggle" class="icono-hamburguesa">&#9776;</label>
+    </header>
+    
+
+    <section class="carrusell">
+        <div class="carrusel">
+            <div class="atras">
+                <img id="atras" src="MEDIA/atras.svg" alt="atras" loading="lazy">
+            </div>
+    
+            <div class="imagenes">
+                <div id="img">
+                    <img class="img" src="MEDIA/carrusel/lmv-16-9.png" alt="imagen 1" loading="lazy">
+                </div>
+                
+                <div id="texto" class="texto">
+                    <h3>LMV</h3>
+                    <p>Somos la Distribuidora Oficial de la Marca LMV Nro 1 del Pais</p>
+                </div>
+            </div>
+    
+            <div class="adelante" id="adelante">
+                <img src="MEDIA/adelante.svg" alt="adelante" loading="lazy">
+            </div>
+        </div>
+    
+        <div class="puntos" id="puntos"></div>
+    
+        <script src="JS/carrusel.js"></script>
+    </section>
+
+    <main class="inicio">
+        <div class="texto-ini">
+            <h1>Qué Somos?</h1>
+            <p>Somos Agrocalore empresa dedicada al mantenimiento de sus vehículos 
+            ofreciéndoles los productos necesarios para que su vehículo se encuentre 
+            en óptimas condiciones y a los mejores precios</p>
+        </div>
+        <div class="img-ini">
+            <img src="MEDIA/icono.png" alt="" srcset="">
+        </div>
+    </main>
+
+    
+
+    <footer class="finale">
+        <div class="final">
+            <div class="info">
+                <h3>AgroCalore</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab esse explicabo labore voluptate qui beatae neque eaque nostrum laudantium vitae nesciunt facilis, dicta sed ipsum omnis inventore accusantium iusto.</p>
+            </div>
+        
+            <div class="redes">
+                <h2>Nuestras Redes Sociales</h2>
+                <ul>
+                    <li><img src="MEDIA/icons8-instagram-48.png" alt="Instagram"><a href="">Instagram</a></li>
+                    <li><img src="MEDIA/icons8-tik-tok-48.png" alt=""><a href="">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Todo el diseño, el texto, los gráficos y la selección y disposición del Sitio web son propiedad de la Compañía.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

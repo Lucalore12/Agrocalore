@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Motor de Búsqueda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/navegacion.css">
+    <link rel="icon" type="png"  href="MEDIA/icono.png">
+    <link rel="stylesheet" href="CSS/productos/productos.css">
+    <link rel="stylesheet" href="CSS/productos/categorias.css">
+    <link rel="stylesheet" href="CSS/productos/busqueda.css">
+</head>
+<body>
+    <header class="barra-principio">
+        <img src="MEDIA/icono.png" class="icono">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <nav class="navega">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html" class="active">Productos</a>
+            <a href="sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="contactos.html">Contactos</a>
+        </nav>
+        
+            
+        <label for="menu-toggle" class="icono-hamburguesa">&#9776;</label>
+        
+    </header>
+    
+    <div class="productos">
+        <aside class="menu-busqueda">
+            <div class="relleno"></div>
+            <ul class="menu-categoria">
+                <li class="sub-menu"><img src="MEDIA/flecha-hacia-abajo-para-navegar.png" alt=".">categorias
+                    <ul class="submenu-items">
+                        <li>Lubricantes</li>
+                        <li>Aceites</li>
+                        <li>Refrigerante</li>
+                    </ul>
+                </li>
+                <li class="sub-menu"><img src="MEDIA/flecha-hacia-abajo-para-navegar.png" alt=".">Filtros
+                    <ul class="submenu-items">
+                        <li>Pailas</li>
+                        <li>Potes</li>
+                        
+                    </ul>
+                </li>
+            </ul>
+            
+        </aside>
+
+        <div class="busqueda">
+            <div class="relleno"></div>
+            
+            <form action="#" method="get" id="search-form">
+                <input type="text" name="search" id="search-input" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
+            </form>
+            <div id="search-results">
+                <div class="resultado">
+                    <img src="MEDIA/productos/aceite-krs.jpg" alt="">
+                    <div class="caracteres">
+                        <h2>Aceite para Transmisiones Manuales Krs 1L</h2>
+                        <p>Es un lubricante mineral formulado con aceites básicos y aditivos de excelente calidad. Le confiere propiedades antidesgaste, antiherrumbrantes, antioxidantes y de extrema presión.</p>
+                    </div>
+                </div>
+                <div class="resultado">
+                    <img src="MEDIA/productos/lmv-lubricante.jpg" alt="">
+                    <div class="caracteres">
+                        <h2>LMV 4 TIEMPOS ACEITE MINERAL MOTO-PRO</h2>
+                        <p>Aceite para motocicletas 4 tiempos LMV MOTO PRO SAE 20W50 MINERAL, lubricante premiun a nivel mundial.</p>
+                    </div>
+                </div>
+                <div class="resultado">
+                    <img src="MEDIA/productos/aceite-lmv.jpg" alt="">
+                    <div class="caracteres">
+                        <h2>ACEITE TRANSMISION LMV SINCRONICA 80W90</h2>
+                        <p>Son lubricantes de bases minerales altamente refinadas y con aditivos de extrema presión (EP) para uso en transmisiones con engranajes sometidos a altos torques y velocidades variables</p>
+                    </div>
+                </div>
+                <div class="resultado">
+                    <img src="MEDIA/productos/paila-lmv.webp" alt="">
+                    <div class="caracteres">
+                        <h2>Aceite lubricante para motores 20W50 Mineral</h2>
+                        <p>Aceite especialmente formulado para automóviles con más de 100 000 kilómetros</p>
+                    </div>
+                </div>
+            </div>
+            <script src="JS/busqueda.js"></script>
+        </div>
+    </div>  
+</body>
+</html>
