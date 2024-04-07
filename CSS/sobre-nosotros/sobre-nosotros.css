@@ -62,3 +62,69 @@ text-shadow: 50px 50px 50px 50px white;
 .img-ini img{
     height: 350px
 }
+@media screen and (max-width: 768px){
+    .historia{
+        background-color: whitesmoke;
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        font-family: "Rubik",sans-serif;
+        box-shadow: 0px 0px 15px rgb(0, 0, 0);
+        color: rgb(0, 149, 255);
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .vision{
+        background-color: rgb(14, 122, 0);
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        font-family: "Rubik",sans-serif;
+        box-shadow: 0px 0px 15px rgb(0, 0, 0);
+        color: azure;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .mision{
+        background-color: rgb(0, 141, 248);
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        font-family: "Rubik",sans-serif;
+        box-shadow: 0px 0px 15px rgb(0, 0, 0);
+        color: azure;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .texto-ini{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        width: 75%;
+        padding: 20px;
+    }
+    .texto-ini h1{
+        font-size: 45px;
+        text-shadow: 50px 50px 50px 50px black;
+        
+    }
+    .texto-ini p{
+        font-size: 20px;
+    text-shadow: 50px 50px 50px 50px white;
+    
+    }
+    .img-ini{
+        width: auto;
+    }
+    .img-ini img{
+        height: 150px
+    }
+}

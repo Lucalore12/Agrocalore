@@ -8,4 +8,5 @@ body{
 }
 .productos{
     display: flex;
+    height: 100vh;
 }
