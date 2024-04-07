@@ -12,20 +12,23 @@
     <link rel="stylesheet" href="CSS/productos/productos.css">
     <link rel="stylesheet" href="CSS/productos/categorias.css">
     <link rel="stylesheet" href="CSS/productos/busqueda.css">
+    <link rel="stylesheet" href="CSS/final.css">
 </head>
 <body>
     <header class="barra-principio">
         <img src="MEDIA/icono.png" class="icono">
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
         <nav class="navega">
-            <a href="index.html">Inicio</a>
-            <a href="productos.html" class="active">Productos</a>
-            <a href="sobre-nosotros.html">Sobre Nosotros</a>
-            <a href="contactos.html">Contactos</a>
-        </nav>
-        
+            <label for="menu-toggle" class="icono-hamburguesa">&#9776;</label>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <div class="navegacion">
+                <a href="index.html" >Inicio</a>
+                <a href="productos.html" class="active">Productos</a>
+                <a href="sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="contactos.html">Contactos</a>
+            </div>
             
-        <label for="menu-toggle" class="icono-hamburguesa">&#9776;</label>
+            
+        </nav>
         
     </header>
     
@@ -91,5 +94,26 @@
             <script src="JS/busqueda.js"></script>
         </div>
     </div>  
+
+    <footer class="finale">
+        <div class="final">
+            <div class="info">
+                <h3>AgroCalore</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab esse explicabo labore voluptate qui beatae neque eaque nostrum laudantium vitae nesciunt facilis, dicta sed ipsum omnis inventore accusantium iusto.</p>
+            </div>
+        
+            <div class="redes">
+                <h2>Nuestras Redes Sociales</h2>
+                <ul>
+                    <li><img src="MEDIA/icons8-instagram-48.png" alt="Instagram"><a href="">Instagram</a></li>
+                    <li><img src="MEDIA/icons8-tik-tok-48.png" alt=""><a href="">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Todo el diseño, el texto, los gráficos y la selección y disposición del Sitio web son propiedad de la Compañía.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
