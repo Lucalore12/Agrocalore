@@ -62,7 +62,7 @@ color:rgb(0, 134, 218);
         padding: 20px;
     }
     .texto-ini h1{
-        font-size: 35px;
+        font-size: 45px;
         text-shadow: 50px 50px 50px 50px black;
         color: rgb(0, 134, 218);
     }
@@ -77,4 +77,44 @@ color:rgb(0, 134, 218);
     .img-ini img{
         height: 150px
     }
+}
+@media screen and (max-width: 390px){
+    .inicio{
+        background-color: whitesmoke;
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        font-family: "Rubik",sans-serif;
+        box-shadow: 0px 0px 15px rgb(0, 0, 0);
+        
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .texto-ini{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        width: 75%;
+        padding: 20px;
+    }
+    .texto-ini h1{
+        font-size: 25px;
+        text-shadow: 50px 50px 50px 50px black;
+        color: rgb(0, 134, 218);
+    }
+    .texto-ini p{
+    font-size: 15px;
+    text-shadow: 50px 50px 50px 50px white;
+    color:rgb(0, 134, 218);
+    }
+    .img-ini{
+        width: auto;
+    }
+    .img-ini img{
+        height: 125px
+    }
+
 }
