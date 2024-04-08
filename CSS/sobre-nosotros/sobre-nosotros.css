@@ -128,7 +128,7 @@ text-shadow: 50px 50px 50px 50px white;
         height: 150px
     }
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 420px){
     .historia{
         background-color: whitesmoke;
         height: 35vh;

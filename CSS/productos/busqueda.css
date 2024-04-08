@@ -90,7 +90,7 @@
         font-size: 13px;
     }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
     #search-form {
         display: flex;
         align-items: center;

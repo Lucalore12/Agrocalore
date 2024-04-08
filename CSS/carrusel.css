@@ -194,7 +194,7 @@ transition: .2s;
     }
     
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 420px){
     .carrusel{
         display: flex;
         align-items: center;

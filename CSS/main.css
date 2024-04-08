@@ -78,7 +78,7 @@ color:rgb(0, 134, 218);
         height: 150px
     }
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 420px){
     .inicio{
         background-color: whitesmoke;
         height: 30vh;

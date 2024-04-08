@@ -80,7 +80,7 @@
         transition: .5s;
     }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
 
     .menu-busqueda{
         width: 200px;
