@@ -1,0 +1,265 @@
+.carrusell{
+    width: 100%;
+    
+    background-color: #eafdfc;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* Contenedor */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+.carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 75vh;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.img{
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
+    height: 640px;
+    width: 1180px;
+    border-radius: 10px ;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.texto{
+    overflow: hidden;
+    position: absolute;
+    flex-direction:column;
+    transform: translate(50px,-10px);
+    margin-bottom: 9px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.46);
+    align-items: center;
+    display: flex;
+    
+    border-radius: 30px;
+    
+}
+
+.texto h3{
+    
+    text-shadow: 0px 0px 15px rgb(154, 154, 154);
+    padding-top: 40px;
+    color: rgb(45, 140, 255);
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.texto p{
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    color:rgb(45, 140, 255);
+    font-size: 0px;
+    font-weight: 300;
+}
+
+.imagenes .texto{
+    width: 425px;
+    height: 100px;
+    
+    transition: 1s;
+}
+
+.imagenes:hover .texto{
+    transition: height 1s, transform 1s, background-color 1s;
+    transform: translate(50px,-150px);
+    height: 220px;
+    background-color: rgba(229, 229, 229, 0.565);
+}
+
+.imagenes:hover .texto p{
+    transition: font-size 0s .2s linear;
+    font-size: 23px;
+    font-weight: 600;
+
+    text-shadow: 0px 0px 10px #7c7c7c;
+}
+
+.puntos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.puntos p{
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: -50px;
+    color: #eafdfc;
+}
+
+.puntos .bold{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #eafdfc ;
+}
+.barra-principio {
+    background: rgb(0, 134, 218);
+    position: fixed;
+    width: 100%;
+}
+.atras{
+    transform: translateX(0px);
+    transition: .5s;
+}
+.atras:hover {
+transform: translateX(-15px);
+transition: .2s;
+
+}
+.adelante{
+    transform: translateX(0px);
+    transition: .5s;
+}
+.adelante:hover {
+transform: translateX(15px);
+transition: .2s;
+
+
+}
+@media screen and (max-width: 768px) {
+
+    .carrusel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%;
+        height: 55vh;
+    }
+    .img{
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
+        height: 287px;
+        width: 509px;
+        border-radius: 10px ;
+        margin: 5px;
+        object-fit: cover;
+    }
+    .texto h3{
+    
+        text-shadow: 0px 0px 15px rgb(154, 154, 154);
+        padding-top: 15px;
+        color: rgb(45, 140, 255);
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .texto p{
+        align-items: center;
+        justify-content: center;
+        padding: 7px;
+        color:rgb(45, 140, 255);
+        font-size: 0px;
+        font-weight: 300;
+    }
+    
+    .imagenes .texto{
+        width: 158px;
+        height: 37px;
+        
+        transition: 1s;
+    }
+    .imagenes:hover .texto{
+        transition: height 1s, transform 1s, background-color 1s;
+        transform: translate(50px,-100px);
+        height: 82px;
+        background-color: rgba(229, 229, 229, 0.565);
+    }
+    .imagenes:hover .texto p{
+        transition: font-size 0s .2s linear;
+        font-size: 8px;
+        font-weight: 600;
+    
+        text-shadow: 0px 0px 10px #7c7c7c;
+    }
+    
+}
+@media screen and (max-width: 390px){
+    .carrusel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%;
+        height: 35vh;
+    }
+    .img{
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
+        height: 148px;
+        width: 262px;
+        border-radius: 10px ;
+        margin: 5px;
+        object-fit: cover;
+    }
+    .texto{
+        overflow: hidden;
+        position: absolute;
+        flex-direction:column;
+        transform: translate(20px,-10px);
+        margin-bottom: 9px;
+        backdrop-filter: blur(20px);
+        background-color: rgba(255, 255, 255, 0.46);
+        align-items: center;
+        display: flex;
+        
+        border-radius: 5px;
+        
+    }
+    .texto h3{
+    
+        text-shadow: 0px 0px 15px rgb(154, 154, 154);
+        padding-top: 10px;
+        color: rgb(45, 140, 255);
+        font-weight: 600;
+        font-size: 13px;
+    }
+    
+    .texto p{
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        color:rgb(45, 140, 255);
+        font-size: 0px;
+        font-weight: 300;
+    }
+    
+    .imagenes .texto{
+        width: 84px;
+        height: 20px;
+        
+        transition: 1s;
+    }
+    .imagenes:hover .texto{
+        transition: height 1s, transform 1s, background-color 1s;
+        transform: translate(20px,-60px);
+        height: 44px;
+        background-color: rgba(229, 229, 229, 0.565);
+    }
+    .imagenes:hover .texto p{
+        transition: font-size 0s .2s linear;
+        font-size: 4px;
+        font-weight: 600;
+    
+        text-shadow: 0px 0px 10px #7c7c7c;
+    }
+}

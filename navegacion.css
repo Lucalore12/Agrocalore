@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+   padding: 0%;
+  }
+  .barra-principio {
+    background: rgb(0, 134, 218);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    font-family: "Rubik",sans-serif;
+  }
+.icono{
+    padding-left: 15px;
+    height:  72px;
+    
+    transition: 1s;
+}
+.navega{
+  height: 75px;
+}
+.navegacion{
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.navegacion a {
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  color: azure;
+  font-size: 25px;
+  height: 75px;
+  width: 190px;
+  transition: .5s;
+  
+}
+.navegacion a:hover {
+  transition: .2s;
+  height: 90px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: rgb(0, 63, 172);
+}
+.active{
+  border-radius: 0px 0px 10px 10px; 
+  background-color: rgb(0, 63, 172) !important;
+  height: 85px !important;
+  }
+.menu-toggle {
+  display: none; /* Ocultar en pantallas grandes */
+}
+
+.icono-hamburguesa {
+  display: none;
+  
+  cursor: pointer;
+}
+
+
+.menu-toggle:checked + .navegacion {
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+/* Estilos para mostrar el menú al hacer clic en el icono */
+
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  
+  .navegacion {
+    display: none;
+  }
+.navega{
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+}
+.icono-hamburguesa {
+    display: block;
+    
+     /* Mostrar en pantallas pequeñas */
+    font-size: 24px;
+    height: 75px;
+    width: 125px;
+    text-align: center;
+    
+    font-size: 55px;
+    color: white;
+}
+
+.menu-toggle:checked + .navegacion {
+    display: flex; /* Mostrar al hacer clic en el icono */
+    flex-direction: column;
+    
+    
+    top: 75px;
+    left: 0;
+    height: 260px;
+    width: 100px;
+    border-radius: 0px 0px 0px 0px;
+    
+      
+}
+.navegacion a{
+  background-color: rgb(0, 134, 218);
+  font-size: 20px;
+  padding-top: 15px;
+  height: 65px;
+  width: 125px;
+}
+.navegacion a:hover {
+  transition: .2s;
+  height: 65px;
+  border-radius: 0px 0px 0px 0px;
+  background-color: rgb(0, 63, 172);
+}
+
+.active{
+  border-radius: 0px 0px 0px 0px; 
+  background-color: rgb(0, 63, 172) !important;
+  height: 65px !important;
+  }
+}
+
+
+@media screen and (max-width: 390px){
+  .navegacion {
+    display: none;
+  }
+.navega{
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+}
+.icono-hamburguesa {
+    display: block;
+    
+     /* Mostrar en pantallas pequeñas */
+    font-size: 24px;
+    height: 40px;
+    width: 125px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 45px;
+    color: white;
+}
+
+.menu-toggle:checked + .navegacion {
+    display: flex; /* Mostrar al hacer clic en el icono */
+    flex-direction: column;
+    
+    
+    top: 75px;
+    left: 0;
+    padding-top: 15px;
+    height: 260px;
+    width: 85px;
+    border-radius: 0px 0px 0px 0px;
+    
+      
+}
+.navegacion a{
+  background-color: rgb(0, 134, 218);
+  font-size: 15px;
+  padding-top: 15px;
+  height: 45px;
+  width: 125px;
+}
+.navegacion a:hover {
+  transition: .2s;
+  height: 45px;
+  border-radius: 0px 0px 0px 0px;
+  background-color: rgb(0, 63, 172);
+}
+
+.active{
+  border-radius: 0px 0px 0px 0px; 
+  background-color: rgb(0, 63, 172) !important;
+  height: 45px !important;
+  }
+}
+  
+ 
